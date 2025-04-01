@@ -29,7 +29,7 @@ VALUES
     ('Emily', 'Yogurt', 7, 10, 2005, 'NY', 730),
     ('Sam', 'Soap', 12, 2, 2001, 'NJ', 165),
     ('Knuth', 'Coke', 6, 1, 2003, 'CT', 1557),
-    ('Sam', 'Milk', 9, 8, 2001, 'NY', 1132);
+    ('Sam', 'Milk', 9, 8, 2001, 'NY', 1132),
 	('Bloom', 'Coke', 15, 6, 2003, 'PA', 2250),
     ('Knuth', 'Yogurt', 1, 12, 2006, 'NJ', 3100),
     ('Emily', 'Cookies', 10, 3, 2001, 'NY', 1875),
