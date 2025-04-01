@@ -1,4 +1,4 @@
-WITH p1 AS ( -- 
+WITH p1 AS ( -- calc min, max, and avg quant for each cust
 	SELECT cust, min(quant) min_q, max(quant) max_q, avg(quant) avg_q
 	FROM sales
 	GROUP BY cust
