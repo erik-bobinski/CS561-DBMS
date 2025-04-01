@@ -16,5 +16,3 @@ p3 AS ( -- remaining cols beside each pair of (cust, max_q)
 SELECT p2.cust, p2.min_q, p2.min_prod, p2.min_day, p2.min_month, p2.min_year, p2.min_state,
 p3.max_q, p3.max_prod, p3.max_day, p3.max_month, p3.max_year, p3.max_state, p1.avg_q
 FROM p2 JOIN p3 ON p2.cust = p3.cust JOIN p1 ON p2.cust = p1.cust
-
-
